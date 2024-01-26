@@ -1,0 +1,67 @@
+.texto_dinamico {
+    display: flex;
+    
+   
+
+}
+
+.texto_dinamico .estatico {
+
+    display: inline-block;
+    top: 0px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.texto_dinamico .dinamico {
+    display: inline-block;
+    margin: -8px;
+    margin-left: 15px;
+    line-height: 95px;
+    height: 85px;
+    overflow: hidden;
+    
+}
+
+.dinamico li {
+    color: white;
+    list-style: none;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    animation: slide 6.5s steps(4) infinite;
+    
+}
+ 
+.dinamico li span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-left: 2px solid rgb(255, 255, 255);
+    animation: typing 1.5s steps(10) infinite;
+    background-color: #35403E;
+    
+
+}
+
+.dinamico li span {
+    position: relative;
+
+}
+
+@keyframes slide {
+    100% {
+        top: -380px;
+    }
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}

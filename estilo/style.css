@@ -28,10 +28,6 @@ a {
     text-decoration: none;
     color: white;
     
-    
-    
-    
-    
 }
 
 a:hover {
@@ -43,6 +39,7 @@ a:hover {
 header {
     position: relative;
     padding: 0 2em;
+    margin-bottom: 400px;
 
 
 }
@@ -141,13 +138,14 @@ header {
 }
 
 .hero {
-    height:calc(900px);
+    height:calc(500px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
+    background-color: #35403E;
     
 }
 
@@ -166,7 +164,13 @@ header {
 }
 
 .porti div {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
     margin: 0px 50px;
     width: 400px;
     height: 400px;
@@ -176,25 +180,19 @@ header {
 }
 
 .porti .div1 {
-    background: #50D9C0 url(../img/IMG_7152.jpg);
+    background:url(../img/IMG_7152.jpg);
     background-size: cover;
 }
 
 .porti .div2 {
-    background: #50D9C0 url(../img/IMG_7175.jpg);
+    background: url(../img/IMG_7175.jpg);
     background-size: cover;
 }
-
-
-
-
-
 .porti div:hover {
     scale: 105%;
     transition: ease .3s;
     
 }
-
 
 @media(max-width: 992px){
     .link, .menu .contato {
@@ -214,6 +212,7 @@ header {
         width: unset;
     }
 }
+
 
 footer {
     align-items: center;
@@ -239,6 +238,7 @@ footer p  {
 footer p i {
     font-size: 0.5rem;
 }
+
 
 
 

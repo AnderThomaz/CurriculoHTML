@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="/estilo/style.css">
+    <link rel="stylesheet" href="/estilo/stylesobremim.css">
+    <script src="https://kit.fontawesome.com/7c25543430.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <div class="logo"><a href="../index.html">Portifolio</a></div>
+
+            <div class="link">
+                <ul class="link">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="paginas/sobre_mim.html">Sobre mim</a></li>
+                    <li><a href="">Curriculo</a></li>
+                
+                
+                </ul>
+            </div>
+            <a href="" class="contato">Contato</a>
+                
+             
+
+             
+                
+             <div class="fabars"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <div class="dropmenu ">
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre mim</a></li>
+                <li><a href="">Curriculo</a></li>
+                <li><a href="#" class="contato">Contato</a></li>
+                
+
+        </div>
+     </header>
+
+     <main>
+        <section class="sobre_mim">
+            
+                <div class="perfil">
+                     <div class="ftperfil"></div> 
+
+                    
+                
+                
+                    <div class="apresent">
+
+                        <h1>Anderson Thomaz</h1>
+                                <ul>
+                                    <li><i class="fa-solid fa-calendar-days"></i>21 Anos
+                                    <li><i class="fa-solid fa-location-dot"></i>São Paulo - SP </li>
+                                    <li><i class="fa-solid fa-graduation-cap"></i>Tec. Administração</li>
+                                    <li><i class="fa-solid fa-magnifying-glass"></i>Ciências da Computação</li>
+                    
+                                </ul>
+                    </div>
+
+
+                </div>
+            
+            <h2>Objetivo profissional</h2>
+            <p>Iniciante apaixonado por tecnologia e determinado a ingressar na área. Busco uma oportunidade que me permita começar minha carreira e me especializar nesse campo em crescimento. Tenho um compromisso sólido com o aprendizado contínuo e estou pronto para contribuir com dedicação e entusiasmo para a equipe e a organização que me oferecer essa oportunidade.</p>
+            
+            
+            <p>  
+            Minhas habilidades de comunicação, resolução de problemas e meu desejo de crescimento fazem de mim um candidato comprometido e motivado a enfrentar os desafios dessa área dinâmica.</p>
+
+            
+
+        </section>
+     </main>
+      
+     
+
+
+
+
+
+
+
+
+
+     <footer>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 | Criado por Anderson Thomaz</p>
+    </footer>
+    <script>
+        const fabars = document.querySelector ('.fabars')
+        const fabarsIcon = document.querySelector ('.fabars i')
+        const dropmenu = document.querySelector ('.dropmenu')
+
+        fabars.onclick = function () {
+            dropmenu.classList.toggle ('open')
+            const isOpen = dropmenu.classList.contains('open')
+
+            fabarsIcon.classList = isOpen
+            ?  'fa-solid fa-xmark'
+            :  'fa-solid fa-bars'
+        }
+
+    </script>
+
+  
+</body>
+</html>
