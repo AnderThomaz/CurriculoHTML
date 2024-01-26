@@ -25,6 +25,7 @@
 }
 
 .dinamico li {
+    text-align: left;
     color: white;
     list-style: none;
     font-size: 60px;
