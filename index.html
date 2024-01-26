@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="https://kit.fontawesome.com/7c25543430.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+   
+    <header>
+        <div class="menu">
+            <div class="logo"><a href="">Portifolio</a></div>
+
+            <div class="link">
+                <ul class="link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre mim</a></li>
+                    <li><a href="">Curriculo</a></li>
+                
+                
+                </ul>
+            </div>
+            
+            
+            
+            <a href="" class="contato">Contato</a>
+                
+             <div class="fabars"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <div class="dropmenu ">
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre mim</a></li>
+                <li><a href="">Curriculo</a></li>
+                <li><a href="#" class="contato">Contato</a></li>
+                
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+
+            <h1>Bem vindo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Sed ratione fuga labore unde voluptatem ut hic harum,</p>
+            
+            
+
+        </section >
+
+        <section class="porti">
+            <div class="div1">
+                    
+            </div>
+            <div class="div2"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 | Criado por Anderson Thomaz</p>
+    </footer>
+    <script>
+        const fabars = document.querySelector ('.fabars')
+        const fabarsIcon = document.querySelector ('.fabars i')
+        const dropmenu = document.querySelector ('.dropmenu')
+
+        fabars.onclick = function () {
+            dropmenu.classList.toggle ('open')
+            const isOpen = dropmenu.classList.contains('open')
+
+            fabarsIcon.classList = isOpen
+            ?  'fa-solid fa-xmark'
+            :  'fa-solid fa-bars'
+        }
+
+    </script>
+
+    </video>
+</body>
+</html>
