@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     height: 100vh;
     background-image: url(../img/backgraund.jpg);
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
      
@@ -163,6 +163,12 @@ header {
     display: flex;
 }
 
+.Projetos {
+    background: white;
+    text-align: center;
+    padding: 120px;
+    padding-bottom: 50px;
+}
 .porti div {
     display: flex;
     flex-direction: column;
@@ -179,10 +185,15 @@ header {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.13);
 }
 
+
+
 .porti .div1 {
-    background:url(../img/IMG_7152.jpg);
+    background:url(../img/projetos/projeLogin.jpg);
     background-size: cover;
+    background-position: center center;
 }
+
+
 
 .porti .div2 {
     background: url(../img/IMG_7175.jpg);
@@ -194,27 +205,7 @@ header {
     
 }
 
-@media(max-width: 992px){
-    .link, .menu .contato {
-        display: none;
-    }
-
-    .fabars {display: block;}
-
-    .dropmenu {
-        display: block;
-    }
-}
-
-@media(max-width: 576px){
-    .dropmenu {
-        left: 2rem;
-        width: unset;
-    }
-}
-
-
-footer {
+.rodape {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -222,7 +213,7 @@ footer {
     height: 30px;
     text-align: center;
     color: white;
-    background: rgba(255, 255, 255, 0.1);
+    background: #35403E;
     backdrop-filter: blur(15px);
     bottom: 0;
     
