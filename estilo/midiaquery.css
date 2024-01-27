@@ -27,43 +27,7 @@
         
     }
 
-    .sobre_mim{
-        width: 90%;
-        transition: ease 2s;
-        
-        
-    }
-
-    .ftperfil {
-        
-        margin: 20px auto ;
-
-       
-       
-
-    }
-
-    .perfil  {
-        padding-top: 20px;
-        display: block;
-        height: 550px;
-        text-align: center;
-        transition: ease 1s;
-
-       
-    }
-
-    .perfil .apresent h1{
-        display: block;
-        text-align: center;
-        
-    }
-
-    .perfil .apresent ul, li {
-        display: block;
-        margin: auto 50px;
-
-    }
+   
         
         
 

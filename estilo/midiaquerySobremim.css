@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    .perfil  {
+        display: block;
+        margin: 0px;
+        height: 500px;
+        padding-top: 20px;
+        
+       
+    }
+
+    .perfil .apresent h1{
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+
+    .perfil .apresent li {
+        font-size: 18px;
+        padding-top: 5px;
+    
+    }
+    .perfil .apresent ul{
+        
+        margin-top: 50px;
+        
+    }
+    
+    .perfil .apresent ul li{
+        
+        margin: 0px 0px 0px 30px;
+        
+        
+        
+        
+        
+    }
+
+    .ftperfil {
+        width: 200px;
+        height: 200px;
+        margin: 0px auto;
+        
+    }
+
+    .sobre_mim {
+        width: 100%;
+        margin: auto;
+        border-radius: 0;
+        padding-bottom: 20px;
+    } 
+    
+
+    .sobre_mim p {
+
+        margin: 5px 25px;
+        font-style: normal;
+        text-align: justify;
+    
+    }
+
+    .sobre_mim h2 {
+        margin: 30px;
+    }
+} 
