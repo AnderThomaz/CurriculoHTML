@@ -220,6 +220,10 @@ header {
     
 }
 
+footer {
+    position: fixed;
+}
+
 
 footer p  {
     font-size: 0.8rem;
