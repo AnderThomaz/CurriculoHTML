@@ -196,8 +196,9 @@ header {
 
 
 .porti .div2 {
-    background: url(../img/IMG_7175.jpg);
+    background: url(../img/projetos/Captura\ de\ tela\ 2024-01-26\ 215125.png);
     background-size: cover;
+    background-position: top top;
 }
 .porti div:hover {
     scale: 105%;
@@ -221,7 +222,7 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: relative;
 }
 
 
