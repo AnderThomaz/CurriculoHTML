@@ -200,6 +200,10 @@ header {
     background-size: cover;
     background-position: top top;
 }
+
+.porti .div3 {
+    background: url(../img/IMG_5300-Quadrada-2.jpg);
+}
 .porti div:hover {
     scale: 105%;
     transition: ease .3s;
