@@ -99,6 +99,18 @@ header {
     scale: 0.95;
 }
 
+#projeto_login {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+#desc {
+    max-width: 400px;
+    text-align: justify;
+}
+
 .dropmenu {
     display: none;
     position: absolute;
@@ -126,8 +138,6 @@ header {
    
 }
 
-
-
 .dropmenu .contato {
 
     width: 100%;
@@ -154,20 +164,29 @@ header {
     margin-bottom: 1rem;
 }
 
+iframe {
+    border-radius: 30px;
+    display: block;
+    width: 30%;
+    scale: 80%;
+}
+
 .porti {
-    background-color: white;
-    height: 600px;
+
+    height: auto;
     align-items: center;
-    justify-content: center;
-    align-content:flex-end;
+    justify-content: space-evenly;
     display: flex;
+    margin: 40px;
+    flex-wrap: wrap
 }
 
 .Projetos {
+    display: block;
     background: white;
     text-align: center;
-    padding: 120px;
-    padding-bottom: 50px;
+    padding: 20px;
+    margin: auto;
 }
 .porti div {
     display: flex;
@@ -177,12 +196,10 @@ header {
     text-align: center;
     cursor: pointer;
     color: white;
-    margin: 0px 50px;
-    width: 400px;
-    height: 400px;
-    border-radius: 50px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.13);
+    margin: 10px 0; 
 }
 
 
@@ -191,6 +208,8 @@ header {
     background:url(../img/projetos/projeLogin.jpg);
     background-size: cover;
     background-position: center center;
+    width: 1000px;
+    height: 400px;
 }
 
 
@@ -199,14 +218,18 @@ header {
     background: url(../img/projetos/Captura\ de\ tela\ 2024-01-26\ 215125.png);
     background-size: cover;
     background-position: top top;
+    width: 1000px;
+    height: 400px;
 }
 
 .porti .div3 {
     background: url(../img/IMG_5300-Quadrada-2.jpg);
+    width: 1000px;
+    height: 400px;
 }
 .porti div:hover {
-    scale: 105%;
-    transition: ease .3s;
+    scale: 102%;
+    transition: ease .5s;
     
 }
 
@@ -239,6 +262,12 @@ footer p i {
     font-size: 0.5rem;
 }
 
+
+a {
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
 
 
 

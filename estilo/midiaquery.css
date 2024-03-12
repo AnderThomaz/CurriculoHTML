@@ -1,8 +1,43 @@
 @charset "UTF-8";
 
 
-  /* Medium devices (landscape tablets, 768px and up) */
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    
+    
+        .link, .menu .contato {
+            display: none;
+        }
+    
+        .fabars {display: block;}
+    
+        .dropmenu {
+            display: block;
+        }
+
+        
+    }
+
+    .porti div {
+        
+      
+        
+    }
+
+    
+    
+
+      /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (max-width: 768px) {
+
+
+    main {
+        height: auto;
+    }
+
+    .porti {
+        height: 1000px;
+    }
 
     .dropmenu {
         left: 2rem;
@@ -34,44 +69,17 @@
 
 
     .porti div {
-        display: flex;
         
-        
-        margin: 25px auto;
-        width: 350px;
-        height: 200px;
-        border-radius: 50px;
-        overflow: hidden;
-        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.13);
     }
 
+    .porti {
+        height: auto;
+    }
    
-        
- 
-
-    
-
-    
     
   }
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (max-width: 992px) {
-    
-    
-        .link, .menu .contato {
-            display: none;
-        }
-    
-        .fabars {display: block;}
-    
-        .dropmenu {
-            display: block;
-        }
 
-        
-    }
 
-    
 
   
   
