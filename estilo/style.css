@@ -188,6 +188,11 @@ iframe {
     padding: 20px;
     margin: auto;
 }
+
+.Projetos > h1 {
+    padding: 30px;
+}
+
 .porti div {
     display: flex;
     flex-direction: column;
